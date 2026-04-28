@@ -4,10 +4,10 @@ const form = document.getElementById('applicationForm');
 const addSocialBtn = document.getElementById('addSocialBtn');
 const socialsContainer = document.getElementById('socialsContainer');
 
-// Initialize EmailJS (replace with your actual service ID)
-(function() {
+// Initialize EmailJS when the library is ready
+if (window.emailjs) {
     emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
-})();
+}
 
 menuToggle.addEventListener('click', () => {
     navigation.classList.toggle('nav-open');
