@@ -8,7 +8,7 @@
 ## Step 2: Add Email Service
 1. In your EmailJS dashboard, click "Email Services" → "Add New Service"
 2. Choose "Gmail" as the provider
-3. Connect your Gmail account (anula0237@gmail.com)
+3. Connect your Gmail account (sarkodiehenry84@gmail.com)
 4. Name your service (e.g., "ANULA Gmail")
 
 ## Step 3: Create Email Template

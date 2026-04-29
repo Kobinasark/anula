@@ -54,7 +54,7 @@ form.addEventListener('submit', function(e) {
     const templateParams = {
         from_name: fullName,
         from_email: email,
-        to_email: 'anula0237@gmail.com',
+        to_email: 'sarkodiehenry84@gmail.com',
         subject: `ANULA Application from ${fullName}`,
         full_name: fullName,
         applicant_email: email,
@@ -77,7 +77,7 @@ form.addEventListener('submit', function(e) {
             }
         }, function(error) {
             console.log('FAILED...', error);
-            alert('Sorry, there was an error sending your application. Please try again or contact us directly at anula0237@gmail.com');
+            alert('Sorry, there was an error sending your application. Please try again or contact us directly at sarkodiehenry84@gmail.com');
         })
         .finally(function() {
             submitBtn.textContent = originalText;

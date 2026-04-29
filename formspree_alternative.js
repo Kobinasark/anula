@@ -51,7 +51,7 @@ form.addEventListener('submit', function(e) {
     })
     .catch(error => {
         console.error('Error:', error);
-        alert('Sorry, there was an error sending your application. Please try again or contact us directly at anula0237@gmail.com');
+        alert('Sorry, there was an error sending your application. Please try again or contact us directly at sarkodiehenry84@gmail.com');
     })
     .finally(() => {
         submitBtn.textContent = originalText;
