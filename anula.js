@@ -7,8 +7,9 @@ const socialsContainer = document.getElementById('socialsContainer');
 
 // Initialize EmailJS when the library is ready
 if (window.emailjs) {
-    emailjs.init("pMj61LC9MQr8o0G9r"); // Replace with your EmailJS public key
+    emailjs.init("EhDy6FmS69pGK2rH3"); // Replace with your EmailJS public key
 }
+
 
 menuToggle.addEventListener('click', () => {
     navigation.classList.toggle('nav-open');
@@ -67,7 +68,7 @@ Message: ${message}`
     };
 
     // Send email using EmailJS
-    emailjs.send('service_iih7ay1', 'template_mywne8d', templateParams) // Replace with your EmailJS service and template IDs
+emailjs.send('service_djod0yj', 'template_xg605nm', templateParams)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Thank you for your application! We\'ll be in touch soon.');
@@ -79,7 +80,7 @@ Message: ${message}`
             }
         }, function(error) {
             console.log('FAILED...', error);
-            alert('Sorry, there was an error sending your application. Please try again or contact us directly at sarkodiehenry84@gmail.com');
+alert('Sorry, there was an error sending your application. Please try again or contact us directly at anula0237@gmail.com');
         })
         .finally(function() {
             submitBtn.textContent = originalText;
@@ -112,14 +113,14 @@ ${message}`
     };
 
     // Send email using EmailJS
-    emailjs.send('service_iih7ay1', 'template_mywne8d', templateParams)
+emailjs.send('service_djod0yj', 'template_xg605nm', templateParams)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Thank you for your message! We\'ll get back to you soon.');
             contactForm.reset();
         }, function(error) {
             console.log('FAILED...', error);
-            alert('Sorry, there was an error sending your message. Please try again or contact us directly at sarkodiehenry84@gmail.com');
+alert('Sorry, there was an error sending your message. Please try again or contact us directly at anula0237@gmail.com');
         })
         .finally(function() {
             submitBtn.textContent = originalText;
